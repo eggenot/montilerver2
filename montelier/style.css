@@ -1,14 +1,20 @@
 body{
-  margin:0;
-  background:#222;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height:100vh;
+ margin:0;
+ background:#222;
+ overflow:hidden;
 }
 
 canvas{
-  background:#000;
-  image-rendering: pixelated;
-  border:2px solid white;
+ display:block;
+ margin:auto;
+ image-rendering:pixelated;
+ background:#000;
+}
+
+#battleUI,#inventoryUI{
+ position:fixed;
+ left:10px;
+ bottom:10px;
+ background:#fff;
+ padding:8px;
 }
